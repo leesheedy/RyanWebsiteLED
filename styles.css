@@ -14,7 +14,9 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   color: var(--text);
-  background: radial-gradient(circle at 20% 10%, #191f31, var(--bg) 45%);
+  background:
+    linear-gradient(rgba(7, 10, 17, 0.76), rgba(7, 10, 17, 0.86)),
+    url('https://cdn.shopify.com/s/files/1/0293/3286/5157/files/benefits-of-using-led-neon-rope-lights-for-driveways-safety-and-visibility_4a5e920f-64d4-4c0c-a71a-abcac6e64631.png?v=1764060904') center/cover fixed no-repeat;
   line-height: 1.55;
 }
 
@@ -102,7 +104,7 @@ h1 {
 .quote-form,
 .quote-result,
 .contact-cards > div {
-  background: rgba(19, 23, 34, 0.88);
+  background: rgba(12, 16, 26, 0.9);
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 1rem 1.1rem;
