@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LumiPath Elite | LED Neon Driveway & Deck Lighting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">LumiPath <span>Elite</span></div>
+      <div class="nav-links">
+        <a href="#quote">Instant Quote</a>
+        <a href="#what-we-do">What We Do</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact" class="cta-link">Contact Us</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="kicker">Premium Architectural Lighting</p>
+      <h1>High-End LED Neon Driveway & Decking Light Installations</h1>
+      <p>
+        Dot-free, low-voltage 24V neon flex engineered for elegant lines, safer pathways,
+        and premium finishes across residential and commercial spaces.
+      </p>
+      <a href="#quote" class="button">Build Instant Quote</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section specs" id="what-we-do">
+      <div>
+        <h2>What We Do</h2>
+        <p>
+          We design and install discreet, luxury-grade LED neon lighting for driveways, steps,
+          decks, trims, and architectural features. Every installation is planned for aesthetics,
+          safety, and long-term performance.
+        </p>
+        <ul>
+          <li>6x12mm 24V flexible neon profile for compact routing and smooth light lines.</li>
+          <li>Available in Warm White 2700K / 3000K, Natural White 4000K, and Cool White 6000K.</li>
+          <li>12m continuous run with one-end power and no voltage drop.</li>
+          <li>20m continuous run with power from both ends.</li>
+          <li>Up to 20m one-side power with approximately 5–10% voltage drop.</li>
+        </ul>
+      </div>
+      <aside class="feature-card">
+        <h3>Professional Install Guarantee</h3>
+        <p>3-year guarantee on standard indoor and outdoor installations.</p>
+        <p class="small-note">IP67 rating is guaranteed when cuts are factory-resealed by our team.</p>
+      </aside>
+    </section>
+
+    <section class="section applications">
+      <h2>Built for Residential & Commercial Projects</h2>
+      <p>
+        Perfect for shopping centres, hotels, restaurants, private residences, and any space where
+        refined neon-style linear lighting is needed.
+      </p>
+      <div class="chips">
+        <span>Driveway Edges</span>
+        <span>Decking Boards</span>
+        <span>Timber & Composite Steps</span>
+        <span>Recessed Trims</span>
+        <span>Hospitality Fitouts</span>
+        <span>Architectural Features</span>
+      </div>
+    </section>
+
+    <section class="section quote" id="quote">
+      <h2>Instant Quote Builder</h2>
+      <p>Build an indicative estimate in under 30 seconds. Final pricing is confirmed after site review.</p>
+      <form id="quoteForm" class="quote-form">
+        <label>
+          Project Type
+          <select id="projectType">
+            <option value="driveway">Driveway Lighting</option>
+            <option value="decking">Decking & Step Lighting</option>
+            <option value="commercial">Commercial Architectural Lighting</option>
+          </select>
+        </label>
+
+        <label>
+          Total Length (metres)
+          <input type="number" id="length" min="1" value="12" required />
+        </label>
+
+        <label>
+          Colour Temperature
+          <select id="temperature">
+            <option value="2700">Warm White 2700K</option>
+            <option value="3000">Warm White 3000K</option>
+            <option value="4000">Natural White 4000K</option>
+            <option value="6000">Cool White 6000K</option>
+          </select>
+        </label>
+
+        <label>
+          Installation Complexity
+          <select id="complexity">
+            <option value="standard">Standard Route</option>
+            <option value="custom">Custom Routing & Recessing</option>
+            <option value="premium">Premium Architectural Finish</option>
+          </select>
+        </label>
+
+        <button type="submit" class="button">Calculate Estimate</button>
+      </form>
+      <div class="quote-result" id="quoteResult" aria-live="polite"></div>
+    </section>
+
+    <section class="section testimonials" id="testimonials">
+      <h2>Client Testimonials</h2>
+      <div class="testimonial-grid">
+        <blockquote>
+          “The driveway edge lighting made our home look like a luxury resort. Clean finish,
+          excellent communication, and perfect nighttime visibility.”
+          <cite>— Sarah T., Homeowner</cite>
+        </blockquote>
+        <blockquote>
+          “LumiPath Elite delivered a flawless neon line around our outdoor dining deck.
+          It completely elevated the venue atmosphere.”
+          <cite>— Marcus L., Restaurant Manager</cite>
+        </blockquote>
+        <blockquote>
+          “From design to handover, the install was professional and meticulous.
+          Exactly the premium look we wanted for our hotel entrance.”
+          <cite>— Olivia R., Operations Director</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>Ready to transform your driveway, deck, or project frontage with premium neon lighting?</p>
+      <div class="contact-cards">
+        <div>
+          <h3>Email</h3>
+          <p>hello@lumipathelite.com</p>
+        </div>
+        <div>
+          <h3>Phone</h3>
+          <p>1300 555 914</p>
+        </div>
+        <div>
+          <h3>Service Area</h3>
+          <p>Metro & regional projects available on request.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> LumiPath Elite. Premium LED Neon Lighting Specialists.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
