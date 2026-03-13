@@ -189,3 +189,49 @@ cite {
   .specs { grid-template-columns: 1fr; }
   .hero-content { margin-top: 4rem; }
 }
+
+@media (max-width: 600px) {
+  body {
+    background-attachment: scroll;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 1rem 1rem 2.5rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    width: 100%;
+    gap: 0.55rem;
+  }
+
+  .nav a {
+    font-size: 0.88rem;
+    padding: 0.3rem 0.55rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: rgba(12, 16, 26, 0.75);
+  }
+
+  .hero-content {
+    margin-top: 2.5rem;
+  }
+
+  .section {
+    padding: 2.6rem 1rem;
+  }
+
+  .quote-form {
+    grid-template-columns: 1fr;
+  }
+
+  .quote-form .button {
+    width: 100%;
+    text-align: center;
+  }
+}
